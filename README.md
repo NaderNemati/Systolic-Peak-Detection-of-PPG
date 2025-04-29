@@ -78,15 +78,15 @@ Systolic-Peak-Detection-of-PPG/
 
 * Python 3.x
 
-* Libraries:
+* Libraries
 
-     numpy
+* numpy
 
-     pandas
+* pandas
 
-     matplotlib
+* matplotlib
 
-     scipy
+* scipy
 
 Install requirements via pip:
 
