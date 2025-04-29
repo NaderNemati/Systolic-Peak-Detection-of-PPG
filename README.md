@@ -1,6 +1,6 @@
 ### PPG-Signal-Processing-and-Systolic-Peak-Detection-using-Elgendi's-Method
 
-This repository contains code for preprocessing a **Photoplethysmography (PPG)** signal, smoothing it using a **moving average filter**, and detecting systolic peaks using **Elgendi's method**.
+This repository contains code for preprocessing a **Photoplethysmography (PPG)** signal, sampled at 1000 Hz, smoothing it using a **moving average filter**, and detecting systolic peaks using **Elgendi's method**.
 
 # Note
 
