@@ -20,11 +20,11 @@ PPG signals are widely used for monitoring heart rate and circulatory health.
 
 A typical PPG waveform includes:
 
-    * Systolic Peak: The highest point, representing blood ejection from the heart.
+* Systolic Peak: The highest point, representing blood ejection from the heart.
 
-    * Dicrotic Notch: A small dip after the systolic peak, caused by closure of the aortic valve.
+* Dicrotic Notch: A small dip after the systolic peak, caused by closure of the aortic valve.
 
-    * Diastolic Peak: A secondary rise after the notch, caused by the reflected blood wave.
+* Diastolic Peak: A secondary rise after the notch, caused by the reflected blood wave.
 
 In this project, systolic peaks are detected using the Elgendi's method, which analyzes the first derivative of the PPG signal to find points where the slope changes from positive to negative.
 
