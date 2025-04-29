@@ -78,7 +78,7 @@ Two main results are represented as followed:
     <tr>
       <td valign=top style="border: 0px solid #c6c6c6 !important; padding: 0px !important;">
         <div align=center valign=top>
-          <img src="https://raw.githubusercontent.com/NaderNemati/Federated-Learning-Pipeline/main/images/federated-learning-pipeline.png" alt="Project Structure" style="margin: 0px !important; height: 400px !important;">
+          <img src="https://github.com/NaderNemati/Systolic-Peak-Detection-of-PPG/blob/main/systolic_peaks.png" alt="Project Structure" style="margin: 0px !important; height: 400px !important;">
         </div>
       </td>
     </tr>
