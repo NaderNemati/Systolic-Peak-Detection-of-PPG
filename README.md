@@ -4,13 +4,15 @@ This repository contains code for preprocessing a **Photoplethysmography (PPG)**
 
 # Note
 
-1-The current setup assumes a sampling frequency of 1000 Hz.
+1-The **ppg_peak_detection.ipynb** notebook, which is the Jupyter Notebook implementation of the project, is available in the repository to provide easier access and for running the pipeline without requiring local setup.
 
-2-The default maximum expected heart rate is 100 BPM.
+2-The current setup assumes a sampling frequency of 1000 Hz.
 
-3-The moving average window size is 12% of the sampling frequency.
+3-The default maximum expected heart rate is 100 BPM.
 
-4-If your signal characteristics are different (e.g., exercise PPG), adjust parameters accordingly.
+4-The moving average window size is 12% of the sampling frequency.
+
+5-If your signal characteristics are different (e.g., exercise PPG), adjust parameters accordingly.
 
 # Introduction
 
