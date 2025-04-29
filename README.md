@@ -2,6 +2,16 @@
 
 This repository contains code for preprocessing a **Photoplethysmography (PPG)** signal, smoothing it using a **moving average filter**, and detecting systolic peaks using the **Elgendi's method**.
 
+# Note
+
+1-The current setup assumes a sampling frequency of 1000 Hz.
+
+2-The default maximum expected heart rate is 100 BPM.
+
+3-The moving average window size is 12% of the sampling frequency.
+
+4-If your signal characteristics are different (e.g., exercise PPG), adjust parameters accordingly.
+
 # Introduction
 
 Photoplethysmography (PPG) is a non-invasive technique that measures blood volume changes in the body using a light sensor.
@@ -56,7 +66,7 @@ The filtered signal shows that baseline wander is removed, and the detected syst
 # Project Structure
 
 ```python
-Federated-Learning-Pipeline/
+Systolic-Peak-Detection-of-PPG/
   ├── peak_detection_script.py     # Main Python script for filtering and peak detection
   ├── requirements.txt             # Dependencies to run the code
   ├── filtered_ppg_signal.png      # Saved figure: Original vs. Filtered PPG
@@ -64,6 +74,38 @@ Federated-Learning-Pipeline/
   └── README.md            # Configuration files for the simulation (base.yaml)
 ```
 
+# Requirements
 
+* Python 3.x
 
+* Libraries:
 
+     numpy
+
+     pandas
+
+     matplotlib
+
+     scipy
+
+Install requirements via pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+# How to Run
+
+1-Clone the repository.
+
+2-Place your PPG CSV file inside the project directory (if not already present).
+
+3-Update the peak_detection_script.py if necessary to match your file path.
+
+4-Run the script:
+
+``` bash
+python peak_detection_script.py
+```
+
+5-The output figures will be saved automatically in the same directory.
