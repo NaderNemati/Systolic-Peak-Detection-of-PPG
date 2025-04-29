@@ -1,6 +1,6 @@
 ### PPG-Signal-Processing-and-Systolic-Peak-Detection-using-Elgendi's-Method
 
-This repository contains code for preprocessing a **Photoplethysmography (PPG)** signal, smoothing it using a **moving average filter**, and detecting systolic peaks using the **Elgendi's method**.
+This repository contains code for preprocessing a **Photoplethysmography (PPG)** signal, smoothing it using a **moving average filter**, and detecting systolic peaks using **Elgendi's method**.
 
 # Note
 
@@ -124,14 +124,14 @@ pip install -r requirements.txt
 
 1-Clone the repository.
 
-2-Place your PPG CSV file inside the project directory (if not already present).
+2-Place your PPG CSV file inside the project directory.
 
 3-Update the peak_detection_script.py if necessary to match your file path.
 
 4-Run the script:
 
 ``` bash
-python peak_detection_script.py
+python3 ppg_peak_detection.py
 ```
 
 5-The output figures will be saved automatically in the same directory.
